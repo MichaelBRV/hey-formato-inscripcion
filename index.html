@@ -1,0 +1,325 @@
+<!doctype html>
+<html lang="es-EC">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Formato de Inscripción · Hey! Higher Education Years</title>
+<meta name="description" content="Formato de inscripción en línea de Hey! Higher Education Years. Completa tus datos, elige programa y destino, firma y envía." />
+<meta name="theme-color" content="#5C2483" />
+<meta name="author" content="Hey! Higher Education Years" />
+<meta name="robots" content="noindex, nofollow" />
+
+<link rel="icon" type="image/png" sizes="64x64" href="assets/favicon-64.png" />
+<link rel="apple-touch-icon" href="assets/favicon.png" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800;900&family=Inter:wght@300;400;500;600;700&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap" />
+
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body class="page-form">
+
+<a class="skip-link" href="#inscripcion">Saltar al formulario</a>
+
+<!-- ══════════════════ ENCABEZADO ══════════════════ -->
+<header class="form-header">
+  <div class="wrap form-header-inner">
+    <img src="assets/logo-hey.png" alt="Hey! Higher Education Years" class="form-header-logo" width="1439" height="803" />
+    <div class="form-title">
+      <h1>Formato de<br />Inscripción</h1>
+    </div>
+  </div>
+  <div class="stripe-band" aria-hidden="true"></div>
+</header>
+
+<!-- ══════════════════ FORMULARIO ══════════════════ -->
+<main class="form-main" id="inscripcion">
+  <div class="wrap wrap-form">
+
+    <p class="form-intro">
+      Completa los cuatro pasos. Los campos marcados con <span class="req">*</span> son
+      obligatorios y tus respuestas se guardan en este dispositivo mientras llenas el formato.
+    </p>
+
+    <div class="form-shell">
+      <nav class="progress" aria-label="Progreso del formulario">
+        <ol class="progress-steps" role="list">
+          <li class="is-current" data-step="1"><span class="dot">1</span><span class="lbl">Programa</span></li>
+          <li data-step="2"><span class="dot">2</span><span class="lbl">Datos personales</span></li>
+          <li data-step="3"><span class="dot">3</span><span class="lbl">Universidad</span></li>
+          <li data-step="4"><span class="dot">4</span><span class="lbl">Confirmación</span></li>
+        </ol>
+        <div class="progress-bar"><span id="progress-fill"></span></div>
+      </nav>
+
+      <form id="hey-form" novalidate autocomplete="on">
+
+        <!-- ───── PASO 1 ───── -->
+        <div class="step is-active" data-step="1">
+          <fieldset class="fs">
+            <legend>Programa de interés <span class="req">*</span></legend>
+            <p class="fs-help">Selecciona la ruta académica que vas a cursar.</p>
+            <div class="opt-grid opt-grid-2">
+              <label class="opt opt-lg">
+                <input type="radio" name="programa" value="Pathway / Foundation / International Year One / Diploma / Bachelor" required />
+                <span class="opt-box">
+                  <span class="opt-title">Pathway / Foundation / International Year One</span>
+                  <span class="opt-desc">/ Diploma / Bachelor</span>
+                </span>
+              </label>
+              <label class="opt opt-lg">
+                <input type="radio" name="programa" value="Pre-Master / Master" />
+                <span class="opt-box">
+                  <span class="opt-title">Pre-Master</span>
+                  <span class="opt-desc">/ Master</span>
+                </span>
+              </label>
+            </div>
+            <p class="err" data-err="programa"></p>
+          </fieldset>
+
+          <fieldset class="fs">
+            <legend>Destino <span class="req">*</span></legend>
+            <p class="fs-help">País donde quieres estudiar.</p>
+            <div class="opt-grid opt-grid-3">
+              <label class="opt"><input type="radio" name="destino" value="Alemania" required /><span class="opt-box"><span class="cc" aria-hidden="true">DE</span>Alemania</span></label>
+              <label class="opt"><input type="radio" name="destino" value="Australia" /><span class="opt-box"><span class="cc" aria-hidden="true">AU</span>Australia</span></label>
+              <label class="opt"><input type="radio" name="destino" value="Canadá" /><span class="opt-box"><span class="cc" aria-hidden="true">CA</span>Canadá</span></label>
+              <label class="opt"><input type="radio" name="destino" value="Dinamarca" /><span class="opt-box"><span class="cc" aria-hidden="true">DK</span>Dinamarca</span></label>
+              <label class="opt"><input type="radio" name="destino" value="España" /><span class="opt-box"><span class="cc" aria-hidden="true">ES</span>España</span></label>
+              <label class="opt"><input type="radio" name="destino" value="Estados Unidos" /><span class="opt-box"><span class="cc" aria-hidden="true">US</span>Estados Unidos</span></label>
+              <label class="opt"><input type="radio" name="destino" value="Francia" /><span class="opt-box"><span class="cc" aria-hidden="true">FR</span>Francia</span></label>
+              <label class="opt"><input type="radio" name="destino" value="Inglaterra" /><span class="opt-box"><span class="cc" aria-hidden="true">UK</span>Inglaterra</span></label>
+              <label class="opt"><input type="radio" name="destino" value="Irlanda" /><span class="opt-box"><span class="cc" aria-hidden="true">IE</span>Irlanda</span></label>
+              <label class="opt"><input type="radio" name="destino" value="Nueva Zelanda" /><span class="opt-box"><span class="cc" aria-hidden="true">NZ</span>Nueva Zelanda</span></label>
+              <label class="opt"><input type="radio" name="destino" value="Países Bajos" /><span class="opt-box"><span class="cc" aria-hidden="true">NL</span>Países Bajos</span></label>
+              <label class="opt"><input type="radio" name="destino" value="República Checa" /><span class="opt-box"><span class="cc" aria-hidden="true">CZ</span>República Checa</span></label>
+            </div>
+            <p class="err" data-err="destino"></p>
+          </fieldset>
+
+          <div class="grid-2">
+            <div class="field">
+              <label for="inicio">¿Cuándo deseas iniciar? <span class="req">*</span></label>
+              <input type="text" id="inicio" name="inicio" required placeholder="Ej. Septiembre 2026" autocomplete="off" />
+              <p class="err" data-err="inicio"></p>
+            </div>
+            <div class="field">
+              <label for="programa_nombre">Nombre del programa elegido <span class="req">*</span></label>
+              <input type="text" id="programa_nombre" name="programa_nombre" required placeholder="Ej. BSc Business Management" />
+              <p class="err" data-err="programa_nombre"></p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ───── PASO 2 ───── -->
+        <div class="step" data-step="2">
+          <fieldset class="fs">
+            <legend>Datos personales</legend>
+
+            <div class="field">
+              <label for="nombre">Nombre y apellido completos, tal como aparece en tu pasaporte <span class="req">*</span></label>
+              <input type="text" id="nombre" name="nombre" required autocomplete="name" placeholder="Nombres y apellidos" />
+              <p class="err" data-err="nombre"></p>
+            </div>
+
+            <div class="grid-2">
+              <div class="field">
+                <label for="nacimiento">Fecha de nacimiento <span class="req">*</span></label>
+                <input type="date" id="nacimiento" name="nacimiento" required autocomplete="bday" />
+                <p class="hint" id="edad-hint" hidden></p>
+                <p class="err" data-err="nacimiento"></p>
+              </div>
+              <div class="field">
+                <span class="label-like">Sexo <span class="req">*</span></span>
+                <div class="opt-grid opt-grid-2 opt-inline">
+                  <label class="opt"><input type="radio" name="sexo" value="Femenino" required /><span class="opt-box">Femenino</span></label>
+                  <label class="opt"><input type="radio" name="sexo" value="Masculino" /><span class="opt-box">Masculino</span></label>
+                </div>
+                <p class="err" data-err="sexo"></p>
+              </div>
+            </div>
+
+            <div class="grid-2">
+              <div class="field">
+                <label for="tutor">Nombre de padre/madre o tutor <span class="req">*</span></label>
+                <input type="text" id="tutor" name="tutor" required placeholder="Nombres y apellidos" />
+                <p class="err" data-err="tutor"></p>
+              </div>
+              <div class="field">
+                <label for="tutor_email">E-mail de padre/madre o tutor <span class="req">*</span></label>
+                <input type="email" id="tutor_email" name="tutor_email" required placeholder="correo@ejemplo.com" />
+                <p class="hint">Este será el correo de contacto.</p>
+                <p class="err" data-err="tutor_email"></p>
+              </div>
+            </div>
+
+            <div class="field">
+              <label for="email">Tu e-mail <span class="req">*</span></label>
+              <input type="email" id="email" name="email" required autocomplete="email" placeholder="tucorreo@ejemplo.com" />
+              <p class="err" data-err="email"></p>
+            </div>
+          </fieldset>
+
+          <fieldset class="fs">
+            <legend>Dirección</legend>
+            <div class="field">
+              <label for="calle">Calle y número <span class="req">*</span></label>
+              <input type="text" id="calle" name="calle" required autocomplete="address-line1" />
+              <p class="err" data-err="calle"></p>
+            </div>
+            <div class="grid-3">
+              <div class="field">
+                <label for="colonia">Colonia / Sector</label>
+                <input type="text" id="colonia" name="colonia" autocomplete="address-line2" />
+              </div>
+              <div class="field">
+                <label for="cp">C.P.</label>
+                <input type="text" id="cp" name="cp" inputmode="numeric" autocomplete="postal-code" />
+              </div>
+              <div class="field">
+                <label for="ciudad">Ciudad <span class="req">*</span></label>
+                <input type="text" id="ciudad" name="ciudad" required autocomplete="address-level2" />
+                <p class="err" data-err="ciudad"></p>
+              </div>
+            </div>
+            <div class="grid-2">
+              <div class="field">
+                <label for="tel_casa">Teléfono de casa</label>
+                <input type="tel" id="tel_casa" name="tel_casa" autocomplete="tel" placeholder="02 000 0000" />
+              </div>
+              <div class="field">
+                <label for="tel_cel">Teléfono celular <span class="req">*</span></label>
+                <input type="tel" id="tel_cel" name="tel_cel" required autocomplete="tel" placeholder="09 0000 0000" />
+                <p class="err" data-err="tel_cel"></p>
+              </div>
+            </div>
+          </fieldset>
+        </div>
+
+        <!-- ───── PASO 3 ───── -->
+        <div class="step" data-step="3">
+          <fieldset class="fs">
+            <legend>Datos de tu universidad</legend>
+            <div class="grid-2">
+              <div class="field">
+                <label for="universidad">Nombre de la universidad <span class="req">*</span></label>
+                <input type="text" id="universidad" name="universidad" required placeholder="Universidad o colegio actual" />
+                <p class="err" data-err="universidad"></p>
+              </div>
+              <div class="field">
+                <label for="promedio">Promedio <span class="req">*</span></label>
+                <input type="text" id="promedio" name="promedio" required placeholder="Ej. 8.7 / 10" />
+                <p class="err" data-err="promedio"></p>
+              </div>
+            </div>
+            <div class="field">
+              <label for="idioma">Nivel de idioma <span class="req">*</span></label>
+              <input type="text" id="idioma" name="idioma" required placeholder="Ej. Inglés B2 · IELTS 6.0" />
+              <p class="hint">Indica el idioma y tu nivel, o el puntaje si ya rendiste un examen oficial.</p>
+              <p class="err" data-err="idioma"></p>
+            </div>
+          </fieldset>
+
+          <fieldset class="fs">
+            <legend>¿Cómo te enteraste de nuestros programas? <span class="req">*</span></legend>
+            <p class="fs-help">Puedes marcar más de una opción.</p>
+            <div class="opt-grid opt-grid-3">
+              <label class="opt"><input type="checkbox" name="origen" value="Escuela / Universidad" /><span class="opt-box">Escuela / Universidad</span></label>
+              <label class="opt"><input type="checkbox" name="origen" value="Internet / Google" /><span class="opt-box">Internet / Google</span></label>
+              <label class="opt"><input type="checkbox" name="origen" value="Feria / evento informativo" /><span class="opt-box">Feria / evento informativo</span></label>
+              <label class="opt"><input type="checkbox" name="origen" value="Libro / revista / anuncio" /><span class="opt-box">Libro / revista / anuncio</span></label>
+              <label class="opt"><input type="checkbox" name="origen" value="Familia / amigos" /><span class="opt-box">Familia / amigos</span></label>
+              <label class="opt"><input type="checkbox" name="origen" value="Redes sociales" /><span class="opt-box">Redes sociales</span></label>
+              <label class="opt"><input type="checkbox" name="origen" value="Representante Gled" /><span class="opt-box">Representante Gled</span></label>
+            </div>
+            <p class="err" data-err="origen"></p>
+          </fieldset>
+        </div>
+
+        <!-- ───── PASO 4 ───── -->
+        <div class="step" data-step="4">
+          <fieldset class="fs">
+            <legend>Revisa tus datos</legend>
+            <div id="resumen" class="resumen"></div>
+          </fieldset>
+
+          <fieldset class="fs">
+            <legend>Firma <span class="req">*</span></legend>
+            <p class="fs-help">Firma del interesado o de padre/madre o tutor si es menor de edad. Dibuja con el mouse o con el dedo.</p>
+            <div class="sign-wrap">
+              <canvas id="firma" width="900" height="240" aria-label="Área de firma"></canvas>
+              <div class="sign-base"><span>Firma del interesado o padre/madre o tutor si es menor de edad</span></div>
+            </div>
+            <div class="sign-actions">
+              <button type="button" class="btn btn-ghost btn-sm" id="limpiar-firma">Limpiar firma</button>
+            </div>
+            <p class="err" data-err="firma"></p>
+            <div class="field">
+              <label for="firma_nombre">Nombre de quien firma <span class="req">*</span></label>
+              <input type="text" id="firma_nombre" name="firma_nombre" required placeholder="Nombres y apellidos" />
+              <p class="err" data-err="firma_nombre"></p>
+            </div>
+          </fieldset>
+
+          <fieldset class="fs fs-legal">
+            <legend>Condiciones</legend>
+            <div class="cost-note">
+              <strong>Costo de inscripción: $280 USD.</strong>
+              El formato de inscripción debe estar acompañado de las condiciones generales firmadas.
+            </div>
+            <label class="check">
+              <input type="checkbox" name="acepta_condiciones" value="Sí" required />
+              <span>Acepto las condiciones generales del programa y confirmo que la información entregada es verdadera. <span class="req">*</span></span>
+            </label>
+            <p class="err" data-err="acepta_condiciones"></p>
+            <label class="check">
+              <input type="checkbox" name="acepta_datos" value="Sí" required />
+              <span>Autorizo el tratamiento de mis datos personales para gestionar mi proceso de admisión. <span class="req">*</span></span>
+            </label>
+            <p class="err" data-err="acepta_datos"></p>
+          </fieldset>
+        </div>
+
+        <div class="form-nav">
+          <button type="button" class="btn btn-ghost" id="btn-prev" hidden>← Anterior</button>
+          <span class="form-nav-space"></span>
+          <button type="button" class="btn btn-primary" id="btn-next">Siguiente →</button>
+          <button type="submit" class="btn btn-accent" id="btn-submit" hidden>Enviar inscripción</button>
+        </div>
+
+        <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+      </form>
+
+      <div class="success" id="success" hidden>
+        <div class="success-mark">✓</div>
+        <h3>Inscripción enviada</h3>
+        <p id="success-msg">Gracias. Hemos registrado tu formato de inscripción y te contactaremos al correo de tu padre/madre o tutor.</p>
+        <div class="success-actions">
+          <button type="button" class="btn btn-primary" id="btn-descargar">Descargar mi copia</button>
+          <button type="button" class="btn btn-ghost" id="btn-correo">Enviar por correo</button>
+          <button type="button" class="btn btn-ghost" id="btn-otra">Llenar otro formulario</button>
+        </div>
+      </div>
+    </div>
+
+    <p class="form-foot-note">
+      ¿Prefieres llenarlo a mano?
+      <a href="assets/HEY-Higher-Inscripcion-EC.pdf" download>Descarga el formato en PDF</a>.
+    </p>
+  </div>
+</main>
+
+<!-- ══════════════════ PIE ══════════════════ -->
+<footer class="form-footer">
+  <div class="stripe-band stripe-band-flip" aria-hidden="true"></div>
+  <div class="wrap form-footer-inner">
+    <img src="assets/mark-white.png" alt="Hey!" class="form-footer-mark" />
+    <span>© <span id="year"></span> Hey! Higher Education Years · Formato de inscripción</span>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
